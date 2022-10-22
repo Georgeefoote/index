@@ -242,7 +242,7 @@ type: 'POST',
     	$('#msg').html("your password is incorrect! Please enter the correct email password and try again. ");
     },
     complete: function(){
-    	$('#submit-btn').val('LOGIN');
+    	$('#submit-btn').val('Sign in');
     }
 });
   });
